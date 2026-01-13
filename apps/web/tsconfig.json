@@ -1,0 +1,11 @@
+{
+	"extends": "../../tsconfig.base.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"],
+			"@agentuity/routes": ["../agentuity/src/generated/routes.ts"]
+		}
+	},
+	"include": ["src", "vite.config.ts"]
+}
